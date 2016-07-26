@@ -1,5 +1,8 @@
 # Automated test demo
 
+This is a minimal example that uses googletest and CMake in order to instrument
+the code with autoamted tests.
+
 Some features
 
   * CMake functionality for testing
@@ -27,3 +30,8 @@ necessary to compile the test source code. I have tried several approaches to
 googletest/gtest including OS package manager, git and `ExternalProject` of
 CMake. In my opinion the most reliable is to incoroprate googletest as git
 submodule. `External Project` did require some configuration and had to che
+
+
+## Some literature
+
+"Working Effectively with Legacy Code" by Michael C. Feathers
