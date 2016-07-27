@@ -1,7 +1,7 @@
 # Automated test demo
 
 This is a minimal example that uses googletest and CMake in order to instrument
-the code with autoamted tests.
+the code with automated tests.
 
 Some features
 
@@ -28,7 +28,7 @@ ctest
 In order to build this package you will need to checkout googletest which is
 necessary to compile the test source code. I have tried several approaches to
 googletest/gtest including OS package manager, git and `ExternalProject` of
-CMake. In my opinion the most reliable is to incoroprate googletest as git
+CMake. In my opinion the most reliable is to incorporate googletest as git
 submodule. `External Project` did require some configuration and had to che
 
 
